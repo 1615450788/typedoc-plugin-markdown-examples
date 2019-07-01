@@ -1,0 +1,23 @@
+{
+  "name": "typedoc-plugin-markdown-examples",
+  "version": "1.0.0",
+  "description": "Some example use-cases for typedoc-plugin-markdown project",
+  "scripts": {
+    "docs": "typedoc ./src --theme markdown --platform docusaurus --name 'My API' --readme none --out ./docs/myapi"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tgreyuk/typedoc-plugin-markdown-examples.git"
+  },
+  "author": "Tom Grey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tgreyuk/typedoc-plugin-markdown-examples/issues"
+  },
+  "homepage": "https://github.com/tgreyuk/typedoc-plugin-markdown-examples#readme",
+  "devDependencies": {
+    "typedoc": "^0.14.2",
+    "typedoc-plugin-markdown": "^2.0.8"
+  },
+  "dependencies": {}
+}
