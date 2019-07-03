@@ -40,9 +40,9 @@ npm start
 
 ### 5. Viewing the website
 
-The example Docusaurus websute will be available at http://localhost:3000/docs/myapi/.
+The example Docusaurus website will be available at http://localhost:3000/docs/myapi/.
 
-Manually add the index page to headerLinks to access the api from header.
+Manually add the index page to headerLinks it siteConfig.js to access the api from header.
 
 ```js
 headerLinks: [
